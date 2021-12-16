@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.59" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Рабочий стол\репозиnорий\testing\report\allure-testng\target\test-classes;D:\Рабочий стол\репозиnорий\testing\report\allure-testng\target\classes;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-testng\2.13.6\allure-testng-2.13.6.jar;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-java-commons\2.13.6\allure-java-commons-2.13.6.jar;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-model\2.13.6\allure-model-2.13.6.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\egorh\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\egorh\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\egorh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\egorh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\egorh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\egorh\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\egorh\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Omsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Users\egorh\.jdks\openjdk-15\bin"/>
+    <property name="sun.java.command" value="C:\Users\egorh\AppData\Local\Temp\surefire1305420178593122463\surefirebooter2195581909037021872.jar C:\Users\egorh\AppData\Local\Temp\surefire1305420178593122463 2021-12-16T20-35-55_528-jvmRun1 surefire13515711545198884582tmp surefire_015748774567972335848tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Рабочий стол\репозиnорий\testing\report\allure-testng\target\test-classes;D:\Рабочий стол\репозиnорий\testing\report\allure-testng\target\classes;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-testng\2.13.6\allure-testng-2.13.6.jar;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-java-commons\2.13.6\allure-java-commons-2.13.6.jar;C:\Users\egorh\.m2\repository\io\qameta\allure\allure-model\2.13.6\allure-model-2.13.6.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\egorh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\egorh\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\egorh\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\egorh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\egorh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\egorh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\egorh\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\egorh\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="allure.results.directory" value="D:\Рабочий стол\репозиnорий\testing\report\allure-testng\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\egorh"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.home" value="C:\Users\egorh\.jdks\openjdk-15"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Рабочий стол\репозиnорий\testing\report\allure-testng"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\egorh\AppData\Local\Temp\surefire1305420178593122463\surefirebooter2195581909037021872.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="user.name" value="egorh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\egorh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\egorh\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.version" value="15"/>
+    <property name="user.dir" value="D:\Рабочий стол\репозиnорий\testing\report\allure-testng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\egorh\.jdks\openjdk-15\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\ProgramData\chocolatey\bin;D:\apache-opennlp-1.9.3\bin;C:\Users\egorh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\egorh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\egorh\AppData\Local\Microsoft\WindowsApps;C:\Users\egorh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\egorh\AppData\Roaming\cabal\bin;C:\tools\msys64;C:\tools\ghc-9.0.1\bin;D:\Jmeter\apache-jmeter-5.4.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="allureFixtureTest" classname="io.qameta.allure.examples.testng.AllureFixtureTest" time="0.088"/>
+  <testcase name="allureFixtureTest2" classname="io.qameta.allure.examples.testng.AllureFixtureTest" time="0.002"/>
+  <testcase name="allureFakeParameterizedTest" classname="io.qameta.allure.examples.testng.AllureParameterizedTest" time="0.002"/>
+  <testcase name="allureParameterizedTest" classname="io.qameta.allure.examples.testng.AllureParameterizedTest" time="0.004"/>
+  <testcase name="allureParameterizedTest" classname="io.qameta.allure.examples.testng.AllureParameterizedTest" time="0.008"/>
+  <testcase name="allureSimpleTest" classname="io.qameta.allure.examples.testng.AllureSimpleTest" time="0.041"/>
+</testsuite>
