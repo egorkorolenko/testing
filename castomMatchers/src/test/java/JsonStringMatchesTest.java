@@ -10,6 +10,7 @@ public class JsonStringMatchesTest {
     public void testJsonParser(){
         String str = "{\"status\": \"success\"}";
         assertThat(str, JsonStringMatchers.jsonStringMatchers());
+
     }
 
     @Test(expected = AssertionError.class)

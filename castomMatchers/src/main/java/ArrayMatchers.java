@@ -17,6 +17,7 @@ public class ArrayMatchers extends TypeSafeDiagnosingMatcher<Integer[]> {
     protected boolean matchesSafely(Integer[] integers, Description description) {
         description.appendText("Содержат одни и те же числа");
         Set<Integer> set1 = new HashSet<>(Arrays.asList(integers));
+
         Set<Integer> set2 = new HashSet<>(Arrays.asList(array));
         return set1.equals(set2);
     }

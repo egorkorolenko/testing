@@ -24,6 +24,7 @@
         <dependency>
             <groupId>org.springframework.experimental</groupId>
             <artifactId>spring-aot</artifactId>
+
             <version>0.10.1</version>
         </dependency>
         <dependency>

@@ -8,6 +8,7 @@ public class JsonStringMatchers extends TypeSafeDiagnosingMatcher<String> {
     protected boolean matchesSafely(String s, Description description) {
         description.appendText("НЕ содержит поле status или значение success");
         JSONObject jsonObject = new JSONObject(s);
+
         return jsonObject.getString("status").equals("success");
     }
 

@@ -8,7 +8,6 @@ public class ArrayMatcherTest {
     public void test(){
         Integer[] arr1 = {1,2,3,4,4,4};
         Integer[] arr2 = {4,3,2,1};
-
         assertThat(arr1, ArrayMatchers.arrayMatchers(arr2));
     }
 }
